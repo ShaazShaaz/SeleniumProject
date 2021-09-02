@@ -38,6 +38,7 @@ public class HomeAssignment {
         driver.navigate().back();
         WebElement forgotPass=driver.findElement(By.partialLinkText("Forgot Password?"));
         forgotPass.click();
+        /*
         WebElement mobile=driver.findElement(By.id("identify_email"));
         mobile.sendKeys("1234567");
         WebElement search=driver.findElement(By.id("did_submit"));
@@ -45,6 +46,9 @@ public class HomeAssignment {
         Thread.sleep(3000);
         WebElement cancel=driver.findElement(By.partialLinkText("Cancel"));
         cancel.click();
+
+         */
+        Thread.sleep(3000);
         driver.quit();
 
 
